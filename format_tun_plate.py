@@ -152,9 +152,6 @@ def format_libyan_plate(region_code: str, serial_number: str) -> str:
     """
     return f"{region_code}-{serial_number} LYB"
 
-def is_libyan_plate_text(plate_text: str) -> bool:
-
-
 def classify_plate(bg_color: str, ocr_text: str) -> str:
     """
     Classifies the plate based on background color and OCR text.
